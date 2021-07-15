@@ -1,8 +1,12 @@
 const express = require('express');
 const morgan = require('morgan');
 
+
 // express app
 const app = express();
+
+// connect to mongo db
+const dbURI = 'mongodb+srv://dbMichael:mongopassword1234@cluster0.p8jho.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 // listen for requests
 app.listen(3000);
